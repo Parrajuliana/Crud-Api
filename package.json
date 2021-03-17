@@ -1,0 +1,18 @@
+{
+  "name": "JS-Crud",
+  "version": "1.0.0",
+  "description": "BACKEND\r [x] Desenvolver uma aplicação onde tenha CRUD(adicionar, editar, listar, deletar) de Empresa, Funcionários\r [ ] Montar uma aplicação REST api com o resultado Crud Listando as Empresas e dentro de empresa os respectivos Funcionários",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}

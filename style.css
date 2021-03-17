@@ -1,0 +1,125 @@
+@import url("https:fonts.googleapis.com/css?family=Poppins:300,400");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f6f6f6;
+}
+
+.box {
+  width: 450px;
+}
+
+.box h1,
+.box h2 {
+  color: #fff;
+  background: #03a9f4;
+  padding: 10px 20px;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.box h2 {
+  color: #fff;
+  background: #03a9f4;
+  padding: 10px 20px;
+  font-weight: 700;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.box-2 p {
+  background: #fff;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+form#Formulario {
+  margin-bottom: 50px;
+  padding: 10px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s;
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+input#Input {
+  padding: 1em;
+  border: 1px solid #c1c1c1;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+div#nomes ul {
+  position: relative;
+  background: #fff;
+}
+
+div#nomes ul li {
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 5px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s;
+}
+
+div#nomes ul li:hover {
+  transform: scale(1.1);
+  z-index: 100;
+  background: #25bcff;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.DeleteButton {
+  margin: 10px;
+  width: 20px;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+  border: none;
+  background: #ca2020;
+  border-radius: 50%;
+}
+
+.clicavel {
+  cursor: pointer;
+}
+
+/*ul,
+li {
+  list-style-type: none;
+}
+
+
+
+.DeleteButton {
+  color: white;
+  font-weight: bold;
+  background-color: darkred;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+*/
