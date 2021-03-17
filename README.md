@@ -14,6 +14,6 @@ Regras
 
 Referencias:
 
-https://imasters.com.br/back-end/rest-api-com-node-js-back-end-e-front-end
-https://www.youtube.com/watch?v=vYlz3SmNXQQ&ab_channel=Rocketseat
+https://imasters.com.br/back-end/rest-api-com-node-js-back-end-e-front-end <br>
+https://www.youtube.com/watch?v=vYlz3SmNXQQ&ab_channel=Rocketseat <br>
 https://github.com/vivipolli/API-REST---Node.js
